@@ -27,6 +27,13 @@
 * you can now run the rest of the scripts by typing `python3` and then the name of the script!
 
 
+###Pinout
+
+![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin1.jpg?raw=true)
+
+![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin2.jpg?raw=true)
+
+![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin3.jpg?raw=true)
 
 ### Outputs
 * Blink Led 1
