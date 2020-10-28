@@ -35,7 +35,7 @@
 * green_led =  38
 * For all LEDs I used a 220 ohm resister between the pin and the led
 * For all the buttons I used a 10k ohm resistor between the button and the pin
-* 3.3v Was used as the input voltage to the switch off pin 1
+* 3.3v Was used as the input voltage for the buttons from pin 1
 * You can use any GND pin for the negative Rail for the LEDs (Pins 6,9,14,20,25,30,39)
 * LCD PINS: 5V, GND, 3 and 6
 * HC-SR04 Pins: 5v(vcc), GND, 16 (trig), 18 (echo)
