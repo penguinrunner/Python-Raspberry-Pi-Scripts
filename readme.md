@@ -29,11 +29,23 @@
 
 ###Pinout
 
-![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin1.jpg?raw=true)
+* red_button = 37
+* green_button = 35
+* red_led = 40
+* green_led =  38
+* For all LEDs I used a 220 ohm resister between the pin and the led
+* For all the buttons I used a 10k ohm resistor between the button and the pin
+* 3.3v Was used as the input voltage to the switch off pin 1
+* You can use any GND pin for the negative Rail for the LEDs (Pins 6,9,14,20,25,30,39)
+* LCD PINS: 5V, GND, 3 and 6
+* HC-SR04 Pins: 5v(vcc), GND, 16 (trig), 18 (echo)
 
-![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin2.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/pin2.jpg)
 
-![alt text](https://github.com/penguinrunner/Python-Raspberry-Pi-Scripts/images/master/pin3.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/pin1.jpg)
+
+![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/pin3.jpg)
+
 
 ### Outputs
 * Blink Led 1
@@ -85,6 +97,17 @@
     * Control an output based on the input
     * Non Blocking code while controlling each input/output
     * Detect both the Rising and Falling of the input and control an out accordingly
+
+
+### Sonar HC-SR04 Sensor
+* Measure distance with sound waves
+* Calculates distance based on how long a sound wave took to come back
+* Ultrasonic1 and Ultrasonic Freenove are the same file 
+    * One uses functions and the other is simplified into a single loop
+    
+![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/hc1.jpg)
+
+![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/hc2.jpg)
     
     
 ### LCD Display
@@ -95,5 +118,3 @@
 * Coming Soon
 
 
-### Sonar HC-SR04 Sensor
-* Coming Soon
