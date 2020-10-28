@@ -27,7 +27,7 @@
 * you can now run the rest of the scripts by typing `python3` and then the name of the script!
 
 
-###Pinout
+### Pinout
 
 * red_button = 37
 * green_button = 35
@@ -101,7 +101,7 @@
 
 ### Sonar HC-SR04 Sensor
 * Measure distance with sound waves
-* Calculates distance based on how long a sound wave took to come back
+* Calculates distance based on how long a sound wave takes to come back
 * Ultrasonic1 and Ultrasonic Freenove are the same file 
     * One uses functions and the other is simplified into a single loop
     
