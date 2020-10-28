@@ -2,7 +2,7 @@
 
 ## Setup
 
-###Downloading the Demo Scripts
+### Downloading the Demo Scripts
 * Open a terminal
     * Your terminal will always opens to your home folder
     * if you type `ls` you will "list" the conents of that folder
@@ -12,13 +12,13 @@
 * Now you have the project files!
 
 
-###Installing Dependencies
+### Installing Dependencies
 * In a terminal copy and run this command 
     * `pip3 install RPi.GPIO`
     * This just uses Python3's package manager to install some things we need.
 
 
-###Running the scripts
+### Running the scripts
 * All of the scripts are written for Python3 (not Python2 or Python2.7)
 * In the terminal type `cd Python-Raspberry-Pi-Scripts` and you will enter that folder via the terminal
     * Remember you can type `ls` to see all the files in the terminal
@@ -28,7 +28,7 @@
 
 
 
-###Outputs
+### Outputs
 * Blink Led 1
     * General Setup of the script
     * Import needed libraries
