@@ -1,0 +1,6 @@
+Do this first:
+pip3 install RPi.GPIO
+
+Do this second:
+sudo raspi-config
+enablle I2C
