@@ -38,7 +38,7 @@
 * 3.3v Was used as the input voltage for the buttons from pin 1
 * You can use any GND pin for the negative Rail for the LEDs (Pins 6,9,14,20,25,30,39)
 * LCD PINS: 5V, GND, 3 and 6
-* HC-SR04 Pins: 5v(vcc), GND, 16 (trig), 18 (echo)
+* HC-SR04 Sensor Pins: 5v(vcc), GND, 16 (trig), 18 (echo)
 
 ![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/pin2.jpg)
 
@@ -108,6 +108,24 @@
 ![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/hc1.jpg)
 
 ![alt text](https://raw.githubusercontent.com/penguinrunner/Python-Raspberry-Pi-Scripts/master/images/hc2.jpg)
+    
+
+### Flask Web Server
+* Flask Led 1
+    * Uses a python Library called "Flask" to create a web server
+    * Uses "Routes" to decide which function you are asking for
+        * uses whatever you put after the server address as the route
+        * EX: 192.168.1.50/home would look for the route "home"
+    * Has 3 different functions & Routes
+        * Function 1 "hello_world"
+            * Just returns a text back to the web browser
+        * Function 2 "hello_template"
+            * Returns a preconfigured HTML file back to the browser
+        * Function 3 "led_control"
+            * Adds a form to our HTML template
+            * Lets us send information back to our program
+            * When our program receives the information, it can do something with it (Like turn the led on or off)
+            * Also lets us pass dynamic (changing) data to our template
     
     
 ### LCD Display

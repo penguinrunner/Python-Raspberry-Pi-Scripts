@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flask Led Page</title>
+    </head>
+
+    <body style="padding: 10px; font-size: 64px;">
+
+    <h4>LED is currently {{led_state}}</h4>
+
+        <form method="post">
+
+            <input style="width: 200px;height:200px" type="radio" id="on" name="switch" value="on">
+            <label for="on">LED ON</label><br>
+
+            <input style="width: 200px;height:200px" type="radio" id="off" name="switch" value="off">
+            <label for="off">LED OFF</label><br>
+            <br>
+            <input style="width: 400px;height: 100px;font-size: 64px" type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>
