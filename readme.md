@@ -15,6 +15,7 @@
 ### Installing Dependencies
 * In a terminal copy and run this command 
     * `pip3 install RPi.GPIO`
+    * `pip3 install flask`
     * This just uses Python3's package manager to install some things we need.
 
 
